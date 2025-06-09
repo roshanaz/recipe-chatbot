@@ -1,0 +1,17 @@
+- subject: tuple prompt
+  message: |
+    - cusine_type: for example, middle_eastern, chinese, italian, etc
+    - meal_type: brunch, lunch, snack, etc
+    - degree_of_simplicity: very simple, simple, moderate, etc
+
+    do not stick to my examples and be creative.
+
+- subject: synthetic query prompt
+  message: |
+    Create different natural language user queries for this specific tuple which is later going to be used by a recipe bot that suggests recipes for the given query.
+    A example of such query is: suggest a mediterranean dinner recipe that is at the intermediate level. 
+    Make sure to vary the difficulty levels and not always pick recipes with same level of difficulty.
+# You can add more prompts like this:
+# - subject: another prompt
+#   message: |
+#     Your prompt text here... 
